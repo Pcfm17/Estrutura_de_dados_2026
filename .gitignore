@@ -1,0 +1,43 @@
+# arquivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# bibliotecas
+*.a
+*.so
+*.dll
+*.dylib
+
+# arquivos temporários
+*.tmp
+*.swp
+*~
+*.bak
+
+# debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# cobertura de código
+*.gcda
+*.gcno
+*.gcov
+
+# build
+build/
+bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# sistema operacional
+.DS_Store
+Thumbs.db
