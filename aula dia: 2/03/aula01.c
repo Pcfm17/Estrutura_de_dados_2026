@@ -75,6 +75,10 @@ int main(){
     for(int i = 0; i < qte; i++){
         inserir(hash, valores[i]);
     }
-    imprimir(hash);
+    for(int i = 0; i < qte; i++){
+        //remover(hash, valores[i]); tem que fazer essa linha 
+        imprimir(hash);
+    }
+    
     return 0;
 }
