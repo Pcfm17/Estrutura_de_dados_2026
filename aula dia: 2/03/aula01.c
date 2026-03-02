@@ -74,8 +74,7 @@ int main(){
     Hash *hash = criar_hash();
     for(int i = 0; i < qte; i++){
         inserir(hash, valores[i]);
-        imprimir(hash);
     }
-
+    imprimir(hash);
     return 0;
 }
